@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+p{
+    list-style: none;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 40px;
+}
+
+.riquadro{
+    background-color: whitesmoke;
+    position:absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 6%;
+    padding: 15px 15px;
+}
