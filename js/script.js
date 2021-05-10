@@ -64,3 +64,5 @@ nuovoStudente = {
 
 studenti.push(nuovoStudente); //Caricamento in Array
 console.log(studenti); //Log comprendente l'ultimo inserimento dell'utente
+
+document.getElementById("lista").innerHTML = studenti[i];
