@@ -11,4 +11,9 @@ var studente = {
     eta: 24
 };
 
+// Stampa informazioni con ciclo for-in
+var informazioni;
+for (var informazioni in studente ){
+    console.log(informazioni + " " + studente[informazioni]);
+}
 
