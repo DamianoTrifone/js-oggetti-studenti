@@ -17,3 +17,41 @@ for (var informazioni in studente ){
     console.log(informazioni + " " + studente[informazioni]);
 }
 
+// Array di oggetti di studenti
+var studenti = [
+    {
+        nome: "Guido",
+        cognome: "Male",
+        eta: 25
+    },
+
+    {
+        nome: "Franco",
+        cognome: "Pappalardo",
+        eta: 35
+    },
+
+    {
+        nome: "Michele",
+        cognome: "Scarsino",
+        eta: 19
+    },
+
+    {
+        nome: "Vera",
+        cognome: "Forse",
+        eta: 21
+    },
+
+    {
+        nome: "Lucrezia",
+        cognome: "Bellassai",
+        eta: 26
+    }
+];
+
+// Stampa informazioni studenti
+for (var i=0; i < studenti.length; i++){
+    console.log(studenti[i]);
+}
+
