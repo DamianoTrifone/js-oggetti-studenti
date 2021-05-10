@@ -65,4 +65,6 @@ nuovoStudente = {
 studenti.push(nuovoStudente); //Caricamento in Array
 console.log(studenti); //Log comprendente l'ultimo inserimento dell'utente
 
-document.getElementById("lista").innerHTML = studenti[i];
+for(var i = 0; i < studenti.length; i++){
+    document.getElementById("lista").innerHTML += "<li>" + studenti[i].nome + " " + studenti[i].cognome + "</li>";
+}
