@@ -55,3 +55,12 @@ for (var i=0; i < studenti.length; i++){
     console.log(studenti[i]);
 }
 
+// Inserimento nuovo studente
+nuovoStudente = {
+    nome: prompt("Inserisci il nome del nuovo studente"),
+    cognome: prompt("Inserisci il cognome del nuovo studente"),
+    eta: parseInt(prompt("Inserisci l'età del nuovo studente"))
+};
+
+studenti.push(nuovoStudente); //Caricamento in Array
+console.log(studenti); //Log comprendente l'ultimo inserimento dell'utente
